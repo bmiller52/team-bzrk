@@ -1069,7 +1069,8 @@
 /* Basic */
 
 	body {
-		background: #252122;
+		/*Footer color*/
+		background: #535353;
 		background-image: url("images/bg02.png");
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
@@ -1121,17 +1122,18 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #252122;
+		color: #3459C3;
 		font-weight: 700;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
+		font-size: 2em;
 	}
 
 	a {
-		color: #d52349;
+		color: #550088;
 		text-decoration: underline;
 	}
 
@@ -1158,7 +1160,7 @@
 
 	form label {
 		display: block;
-		color: #252122;
+		color: #3459C3;
 		font-weight: 400;
 		margin: 0 0 0.5em 0;
 	}
@@ -1304,7 +1306,7 @@
 		cursor: pointer;
 		border: 0;
 		border-radius: 5px;
-		background: #d52349;
+		background: #3459C3;
 		color: #fff !important;
 		font-weight: 700;
 		outline: 0;
@@ -1319,7 +1321,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #e53359;
+			background: #353132;
 		}
 
 		input[type="button"]:active,
@@ -1335,7 +1337,7 @@
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #252122;
+			background: #550088;
 		}
 
 			input[type="button"].alt:hover,
@@ -1446,7 +1448,7 @@
 		position: absolute;
 		left: 0;
 		top: 1.3em;
-		background-color: #d52349;
+		background-color: #550088;
 		height: 3.5em;
 		text-align: center;
 		color: #fff;
@@ -1461,7 +1463,7 @@
 			position: absolute;
 			bottom: 0;
 			right: -1.2em;
-			border-left: solid 1.25em #d52349;
+			border-left: solid 1.25em #550088;
 			border-top: solid 1.8em transparent;
 			border-bottom: solid 1.8em transparent;
 		}
@@ -1608,10 +1610,11 @@
 			display: none;
 		}
 
+		/*Special Purple*/
 		.icon.featured {
 			position: relative;
 			display: inline-block;
-			background-color: #d52349;
+			background-color: #550088;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -1631,25 +1634,25 @@
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #d52349;
+				border-top: solid 2em #550088;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
 
 			.icon.featured.alt {
-				background-color: #252122;
+				background-color: #757575;
 			}
 
 				.icon.featured.alt:after {
-					border-top-color: #252122;
+					border-top-color: #757575;
 				}
 
 			.icon.featured.alt2 {
-				background-color: #827a7c;
+				background-color: #3459C3;
 			}
 
 				.icon.featured.alt2:after {
-					border-top-color: #827a7c;
+					border-top-color: #3459C3;
 				}
 
 /* Banner */
@@ -1662,18 +1665,19 @@
 		text-align: center;
 	}
 
-		#banner header {
-			background-color: #252122;
+		/*#banner header {
+			background-color: #3459C3;
 			background-color: rgba(34, 30, 31, 0.98);
-		}
+		}*/
 
 			#banner header h2 {
 				color: #fff;
 				font-weight: 700;
 			}
 
+			/*Special Purple*/
 			#banner header p {
-				color: #d52349;
+				color: #550088;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -1709,8 +1713,9 @@
 		}
 
 	#footer-wrapper {
+		/*footer text color*/
 		position: relative;
-		color: #858484;
+		color: #C3C2C2;
 	}
 
 		#footer-wrapper:before {
@@ -1908,7 +1913,7 @@
 			}
 
 				#header h1 {
-					color: #252122;
+					color: #3459C3;
 					font-weight: 900;
 					font-size: 2.5em;
 					letter-spacing: -0.035em;
@@ -1947,15 +1952,16 @@
 						background: #f3f3f3;
 					}
 
+					/*Special Purple*/
 					#nav > ul > li.current > a {
-						background: #d52349;
+						background: #757575;
 						color: #fff !important;
 						font-weight: 700;
 					}
 
 			.dropotron {
 				border-radius: 5px;
-				background-color: #252122;
+				background-color: #3459C3;
 				background-color: rgba(34, 30, 31, 0.98);
 				padding: 1.25em 1.5em 1.25em 1.5em;
 				font-style: italic;
@@ -1996,7 +2002,7 @@
 						top: -9px;
 						border-left: solid 10px transparent;
 						border-right: solid 10px transparent;
-						border-bottom: solid 10px #252122;
+						border-bottom: solid 10px #3459C3;
 						border-bottom-color: rgba(34, 30, 31, 0.98);
 					}
 
@@ -2501,7 +2507,7 @@
 			}
 
 				#header h1 {
-					color: #252122;
+					color: #3459C3;
 					font-weight: 900;
 					font-size: 1.75em;
 					letter-spacing: -0.035em;
